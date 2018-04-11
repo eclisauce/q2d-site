@@ -9,8 +9,9 @@
 			<h1>{{header}}</h1>
 			<section class="row">
 						{{#each cards}}
-						<div class="card col-6">
-							<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card col-6 border-0">
+							<h2>{{header}}</h2>
+							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">{{title}}</h5>
 								<p class="card-text">{{text}}</p>
@@ -21,11 +22,11 @@
 				</section>
 			{{/with}}
 			{{#with second_part}}
-			<h1>{{header}}</h1>
-			<section class="row">
+			<h1 class="text-center mb-2 mt-2">{{header}}</h1>
+			<section class="row mt-2">
 						{{#each cards}}
-						<div class="card col-6">
-							<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card col-6 border-0">
+							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">{{title}}</h5>
 								<p class="card-text">{{text}}</p>
