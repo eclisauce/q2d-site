@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html>
-	{{>head}}
-	<body>
-		{{>header}}
-		<main>
-			<div class="container">
-			{{#with first_part}}
-			<h1>{{header}}</h1>
-			<section class="row">
-						{{#each cards}}
-						<div class="card col-6 border-0">
-							<h2>{{header}}</h2>
-							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">{{title}}</h5>
-								<p class="card-text">{{text}}</p>
-								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
-							</div>
-						</div>
-						{{/each}}
-				</section>
-			{{/with}}
-			{{#with second_part}}
-			<h1 class="text-center mb-2 mt-2">{{header}}</h1>
-			<section class="row mt-2">
-						{{#each cards}}
-						<div class="card col-6 border-0">
-							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">{{title}}</h5>
-								<p class="card-text">{{text}}</p>
-								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
-							</div>
-						</div>
-						{{/each}}
-				</section>
-			{{/with}}
+{{>head}}
+
+<body>
+	{{>header}}
+	<main>
+		{{#with Welcometext}} {{#each Heading}}
+		<p class="bg-primary">{{Label}}</p>
+		{{/each}} {{/with}}
+
+		<h1>Q2D</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p>Julmust är gott</p>
+					<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+				</div>
 			</div>
-		</main>
-		{{>footer}}
-		{{>scripts}}
-	</body>
+		</div>
+
+
+	</main>
+	{{>footer}} {{>scripts}}
+</body>
 
 </html>
