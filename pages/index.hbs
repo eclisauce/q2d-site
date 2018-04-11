@@ -4,7 +4,38 @@
 	<body>
 		{{>header}}
 		<main>
-			
+			<div class="container">
+			{{#with first_part}}
+			<h1>{{header}}</h1>
+			<section class="row">
+						{{#each cards}}
+						<div class="card col-6">
+							<img class="card-img-top" src="..." alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">{{title}}</h5>
+								<p class="card-text">{{text}}</p>
+								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+							</div>
+						</div>
+						{{/each}}
+				</section>
+			{{/with}}
+			{{#with second_part}}
+			<h1>{{header}}</h1>
+			<section class="row">
+						{{#each cards}}
+						<div class="card col-6">
+							<img class="card-img-top" src="..." alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">{{title}}</h5>
+								<p class="card-text">{{text}}</p>
+								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+							</div>
+						</div>
+						{{/each}}
+				</section>
+			{{/with}}
+			</div>
 		</main>
 		{{>footer}}
 		{{>scripts}}
