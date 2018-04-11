@@ -2,18 +2,18 @@
 	mainmenu: {
 		items: [
 			{
-				label: 'Home',
+				label: 'Start',
 				link: '/',
 				new_window: false
 			},
 			{
-				label: 'Themes',
-				link: '/themes',
+				label: 'Utbildning',
+				link: '/workshop',
 				new_window: false
 			},
 			{
-				label: 'Documentation',
-				link: '/docs',
+				label: 'Om oss',
+				link: '/about',
 				new_window: false
 			}
 		]
