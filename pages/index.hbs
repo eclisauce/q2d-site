@@ -8,10 +8,11 @@
 			{{#with first_part}}
 			<h1>{{header}}</h1>
 			<section class="row">
+				<div class="card-deck">
 						{{#each cards}}
-						<div class="card col-6 border-0">
+						<div class="card col-5 border-0 mx-auto">
 							<h2>{{header}}</h2>
-							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
+							<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
 							<div class="card-body">
 								<h5 class="card-title">{{title}}</h5>
 								<p class="card-text">{{text}}</p>
@@ -19,21 +20,26 @@
 							</div>
 						</div>
 						{{/each}}
+					</div>
 				</section>
 			{{/with}}
 			{{#with second_part}}
 			<h1 class="text-center mb-2 mt-2">{{header}}</h1>
-			<section class="row mt-2">
+			<section class="row mt-4">
+				<div class="card-deck">
 						{{#each cards}}
-						<div class="card col-6 border-0">
-							<img class="card-img-top" src="/assets/img/{{image}}" alt="Card image cap">
+						<div class="card border-0 " id="workshopCards">
+							<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
 							<div class="card-body">
-								<h5 class="card-title">{{title}}</h5>
+								<h4 class="card-title">{{title}}</h4>
 								<p class="card-text">{{text}}</p>
-								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
 							</div>
+							<div class="card-footer border-0">
+								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+					    </div>
 						</div>
 						{{/each}}
+					</div>
 				</section>
 			{{/with}}
 			</div>
