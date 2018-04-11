@@ -9,6 +9,7 @@
 	"author": "author goes here",
 	"license": "MIT",
 	"dependencies": {
+		"babel": "^6.23.0",
 		"enduro": "*"
 	}
 }
