@@ -1,42 +1,39 @@
-#introductionJumbotron{
+#workshopJumbotronIntroduction{
   background-image: url(/assets/img/workshop/introductionJumbotron-img.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   width: 100%;
-  height: 320px;
+  height: 360px;
+  text-shadow: 1px 1px #000;
 }
 
-#programingCoachJumbotron{
+#workshopJumbotronProgramingCoach{
   background-image: url(/assets/img/workshop/programingCoachJumbotron-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   width: 100%;
   height: 360px;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
 }
 
-#workshopFullJumbotron{
+#workshopJumbotronFull{
   background-image: url(/assets/img/workshop/workshopFullJumbotron-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   width: 100%;
   height: 360px;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
 }
 
-#workshopHalfJumbotron{
+#workshopJumbotronHalf{
   background-image: url(/assets/img/workshop/workshopHalfJumbotron-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   width: 100%;
   height: 360px;
-  text-shadow: 2px 2px #000;
-}
-
-#part_three-img{
-  border-radius: 3px;
+  text-shadow: 1px 1px #000;
 }
