@@ -2,12 +2,29 @@
 <html>
 	{{>head}}
 	<body>
-    {{>header}}
-    <main>
-      <h1>About</h1>
-    </main>
-
-
+		{{>header}}
+		<main>
+			<div class="container">
+				<div class="row mx-auto" id="about">
+					{{#with about}}
+					<div class="row">
+						<h1>{{header}}</h1>
+						<section class="col-12">
+							{{#each items}}
+							<h4>{{heading}}</h4>
+								{{#each texts}}
+								<p>{{text}}</p>
+								{{/each}}
+							{{/each}}
+							<hr>
+							<h3>{{clientsHeader}}</h3>
+							<p>{{clients}}</p>
+						</section>
+					</div>
+					{{/with}}
+				</div>
+			</div>
+		</main>
 		{{>footer}}
 		{{>scripts}}
 	</body>

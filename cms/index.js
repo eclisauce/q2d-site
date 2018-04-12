@@ -1,6 +1,6 @@
 ({
 	first_part: {
-		header: 'Här kommer en schysst titel',
+		header: 'q2d Solutions – Din IT-partner',
 		cards: [
 			{
 				header: 'ReMix',
@@ -50,6 +50,40 @@
 				text: 'Modern webbteknik och integration',
 				linkText: 'Mer info',
 				link: '/workshops/workshopHalf'
+			}
+		]
+	},
+	third_part: {
+		header: 'Verksamhetsutvecklare & IT-konsulter',
+		items: [
+			{
+				heading: 'Vi skapar mätbar affärsnytta för våra kunder genom:',
+				texts: [
+					{
+						text: 'ökad snabbhet och flexibilitet för verksamheten genom kort “time to market” för våra lösningar.'
+					},
+					{
+						text: 'sänkta kostnader genom effektivare verksamhet'
+					}
+				]
+			}
+		],
+		itemsTwo: [
+			{
+				heading: 'Rådgivning',
+				texts: [
+					{
+						text: 'Vi kan bistå med rådgivning och utredningar både inom IT och inom rena verksamhetsfrågor.'
+					}
+				]
+			},
+			{
+				heading: 'IT-partner',
+				texts: [
+					{
+						text: 'Vi strävar efter en långsiktig relation med våra kunder. q2d levererar lösningar och tillhandahåller support och uppföljning. Vi arbetar nära våra kunder och tar hand om alla faser i projekten. För oss är det viktigt att följa avtalade budgets och tidplaner.'
+					}
+				]
 			}
 		]
 	}

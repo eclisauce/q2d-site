@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html>
-	{{>head}}
-	<body>
-		{{>header}}
-		<main>
-			<div class="container">
+{{>head}}
+
+<body>
+	{{>header}}
+	<main>
+		<div class="container">
+			<div class="row">
 			{{#with first_part}}
-			<h1>{{header}}</h1>
-			<section class="row">
-				<div class="card-deck col-12">
+				<h1 class="mt-2">{{header}}</h1>
+				<section class="col-12">
+					<div class="card-deck mt-4">
 						{{#each cards}}
-						<div class="card border-0">
-							<h2>{{header}}</h2>
-							<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">{{title}}</h5>
-								<p class="card-text">{{text}}</p>
-								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+							<div class="card border-0">
+								<h2 class="text-center">{{header}}</h2>
+								<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
+								<div class="card-body">
+									<h5 class="card-title">{{title}}</h5>
+									<p class="card-text">{{text}}</p>
+									<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+								</div>
 							</div>
-						</div>
 						{{/each}}
 					</div>
 				</section>
 			{{/with}}
 			{{#with second_part}}
-			<h1 class="text-center mb-2 mt-2">{{header}}</h1>
-			<section class="row mt-4">
-				<div class="card-deck col-12">
+			<div class="row">
+				<section class="col-12 mt-4">
+					<h1 class="text-center mb-2 mt-2">{{header}}</h1>
+					<div class="card-deck">
 						{{#each cards}}
-						<div class="card border-0 " id="workshopCards">
-							<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
-							<div class="card-body">
-								<h4 class="card-title">{{title}}</h4>
-								<p class="card-text">{{text}}</p>
+							<div class="card border-0 " id="workshopCards">
+								<img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
+								<div class="card-body">
+									<h4 class="card-title">{{title}}</h4>
+									<p class="card-text">{{text}}</p>
+								</div>
+								<div class="card-footer border-0">
+									<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+								</div>
 							</div>
-							<div class="card-footer border-0">
-								<a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
-					    </div>
-						</div>
 						{{/each}}
 					</div>
 				</section>
+				</div>
+			{{/with}}
+			{{#with third_part}}
+				<div class="row">
+					<section class="col-12">
+						<h1 class="mt-5 text-center">{{header}}</h1>
+						{{#each items}}
+						<h4 class="mt-3">{{heading}}</h4>
+						<ul>
+							<div class="card border-0 float-right col-4 d-none d-md-block">
+								<img class="img-fluid" src="/assets/img/sensesec-test1.jpeg" alt="">
+							</div>
+							{{#each texts}}
+							<li>{{text}}</li>
+							{{/each}}
+						</ul>
+						{{/each}}
+					</section>
+					<section class="col-12">
+						{{#each itemsTwo}}
+						<h4>{{heading}}</h4>
+							{{#each texts}}
+							<p>{{text}}</p>
+							{{/each}}
+						{{/each}}
+					</section>
+				</div>
 			{{/with}}
 			</div>
-		</main>
-		{{>footer}}
-		{{>scripts}}
-	</body>
+		</div>
+	</main>
+	{{>footer}} {{>scripts}}
+</body>
 
 </html>
