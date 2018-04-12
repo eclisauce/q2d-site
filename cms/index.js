@@ -58,6 +58,7 @@
 		items: [
 			{
 				heading: 'Vi skapar mätbar affärsnytta för våra kunder genom:',
+				image: 'index/part-three-img.jpeg',
 				texts: [
 					{
 						text: 'ökad snabbhet och flexibilitet för verksamheten genom kort “time to market” för våra lösningar.'
