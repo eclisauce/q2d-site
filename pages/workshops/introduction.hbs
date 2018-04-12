@@ -8,11 +8,15 @@
 		<div class="container">
 			<div class="row mx-auto" id="introduction">
 			{{#with introduction}}
-			<h1>{{title}}</h1>
-				<section>
-					<h2>{{headerOne}}</h2>
-					<h3>{{headerTwo}}</h3>
-					<p>{{textOne}}</p>
+			<section>
+			<div class="jumbotron jumbotron-fluid mx-auto mt-3 img-fluid" id="introductionJumbotron">
+				<div class="container">
+					<h1 class="display-4">{{title}}</h1>
+					<p class="lead">{{textOne}}</p>
+				</div>
+			</div>
+					<h2 class="text-center">{{headerOne}}</h2>
+					<h4 class="text-center">{{headerTwo}}</h4>
 				</section>
 				<section>
 					{{#each items}}
@@ -26,7 +30,7 @@
 				</section>
 			{{/with}}
 			<div class="row">
-				<section>
+				<section class="col-12">
 					{{#with educator}}
 						<h3>{{heading}}</h3>
 						<p>{{name}}</p>
@@ -39,7 +43,7 @@
 
 			</div>
 			<div class="row">
-				<section>
+				<section class="col-12">
 					{{#with application}}
 						<h4>{{heading}}</h4>
 						<p>{{latestDate}}</p>

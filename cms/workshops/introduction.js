@@ -3,7 +3,7 @@
 		title: 'Gör er redo för molnet',
 		image: '',
 		headerOne: 'Introduktionsutbildning',
-    headerTwo: '2 tim stöd efter kursen ingår',
+		headerTwo: '2 tim stöd efter kursen ingår',
 		textOne: 'Lär er de nya teknikerna som gör det möjligt att kraftigt kapa tider och kostnader för att ta fram och underhålla IT-lösningar.',
 		textTwo: 'Halvdag (ca 4 timmar) den 17e maj 2017. Start kl 13.00 Ideon, Lund',
 		items: [
@@ -22,7 +22,7 @@
 						text: 'Utvecklare som är nya inom webbteknik'
 					},
 					{
-						text: '2018 maj 17rojektledare inom IT-utvecklingghaha'
+						text: 'Projektledare inom IT-utveckling'
 					},
 					{
 						text: 'Utvecklare som är nya inom webbteknik'
@@ -87,22 +87,19 @@
 				]
 			}
 		]
-
 	},
-
-  educator:{
-    heading: 'Utbildare',
-    name: 'Andreas Ohlsson',
-    image:'workshop/andreas_ohlsson.jpg',
-    infoText: 'Professionell utbildare inom IT och ekonomi i nästan 10 år. Arbetat med IT, affärssystem och systemutveckling i snart 20 år. Lösningsarkitekt och evangelist för modern webbteknik inom applikationsutveckling.',
-    price: 'Pris: 4.000 SEK / deltagare',
-    readerInfo: 'Det är möjligt att medtaga egen dator. Ett begränsat antal lånedatorer finns också.'
-  },
-  application: {
-    heading: 'Anmälan',
-    latestDate: 'Senaste anmälningsdag 2017-05-02',
-    applicationPhone: 'Anmälan på telefon: 046-2862410',
-    applicationEmail: 'Anmälan på e-post till info@q2d.se eller klicka på länken nedan.',
-
-  }
+	educator: {
+		heading: 'Utbildare',
+		name: 'Andreas Ohlsson',
+		image: 'workshop/andreas_ohlsson.jpg',
+		infoText: 'Professionell utbildare inom IT och ekonomi i nästan 10 år. Arbetat med IT, affärssystem och systemutveckling i snart 20 år. Lösningsarkitekt och evangelist för modern webbteknik inom applikationsutveckling.',
+		price: 'Pris: 4.000 SEK / deltagare',
+		readerInfo: 'Det är möjligt att medtaga egen dator. Ett begränsat antal lånedatorer finns också.'
+	},
+	application: {
+		heading: 'Anmälan',
+		latestDate: 'Senaste anmälningsdag 2017-05-02',
+		applicationPhone: 'Anmälan på telefon: 046-2862410',
+		applicationEmail: 'Anmälan på e-post till info@q2d.se eller klicka på länken nedan.'
+	}
 })
