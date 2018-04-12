@@ -1,6 +1,7 @@
 ({
 	workshopFull: {
 		header: 'Heldag Workshop (ca 8 timmar)',
+		image: 'workshop/workshopFullJumbotron-img.jpg',
 		memberNumber: 'Max 10 deltagare',
 		price: 'Pris: 6.000 SEK',
 		items: [

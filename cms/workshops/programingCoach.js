@@ -1,6 +1,7 @@
 ({
 	programingCoach: {
 		header: 'Programmerings coaching och arkitektbollplank',
+		image: 'workshop/programingCoachJumbotron-img.jpg',
 		jumbotronText: 'Två tjänster som vi erbjuder innebär utbildning på plats; programmerings coaching och arkitektbollplank.',
 		items: [
 			{

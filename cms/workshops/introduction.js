@@ -1,7 +1,7 @@
 ({
 	introduction: {
 		title: 'Gör er redo för molnet',
-		image: '',
+		image: 'workshop/introductionJumbotron-img.jpeg',
 		headerOne: 'Introduktionsutbildning',
 		headerTwo: '2 tim stöd efter kursen ingår',
 		textOne: 'Lär er de nya teknikerna som gör det möjligt att kraftigt kapa tider och kostnader för att ta fram och underhålla IT-lösningar.',

@@ -1,6 +1,7 @@
 ({
 	workshopHalf: {
 		header: 'Workshop Halvdag workshop (ca 4 Timmar)',
+		image: 'workshop/workshopHalfJumbotron-img.jpg',
 		memberNumber: 'Max 8 deltagare',
 		price: 'Pris: 12.000 SEK',
 		items: [
