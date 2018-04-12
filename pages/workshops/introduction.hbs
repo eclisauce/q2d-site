@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html>
-	{{>head}}
-	<body>
-		{{>header}}
-		<main>
-      <h1>Produkter</h1>
-			<a href="/ReMix">Till ReMix</a>
-			<a href="/senseSec">Till SenseSec</a>
+{{>head}}
 
-		</main>
-		{{>footer}}
-		{{>scripts}}
-	</body>
+<body>
+	{{>header}}
+	<main>
+		<div class="container">
+			<div class="row mx-auto" id="introduction">
+			{{#with introduction}}
+			<h1>{{title}}</h1>
+				<section>
+					<h2>{{headerOne}}</h2>
+					<h3>{{headerTwo}}</h3>
+					<p>{{textOne}}</p>
+				</section>
+				<section>
+					{{#each items}}
+					<h4>{{heading}}</h4>
+					<ul>
+						{{#each texts}}
+						<li>{{text}}</li>
+						{{/each}}
+					</ul>
+					{{/each}}
+				</section>
+			{{/with}}
+			<div class="row">
+				<section>
+					{{#with educator}}
+						<h3>{{heading}}</h3>
+						<p>{{name}}</p>
+						<img class="img-fluid mt-1 mb-1" src="/assets/img/{{image}}" alt="">
+						<p>{{infoText}}</p>
+						<p><b>{{price}}</b></p>
+						<p>{{readerInfo}}</p>
+					{{/with}}
+				</section>
+
+			</div>
+			<div class="row">
+				<section>
+					{{#with application}}
+						<h4>{{heading}}</h4>
+						<p>{{latestDate}}</p>
+						<p>{{applicationPhone}}</p>
+						<p>{{applicationEmail}}</p>
+					{{/with}}
+				</section>
+
+			</div>
+			</div>
+		</div>
+	</main>
+	{{>footer}} {{>scripts}}
+</body>
 
 </html>
