@@ -25,10 +25,10 @@
 					</div>
 				</section>
 			{{/with}}
-			{{#with second_part}}
 			<div class="row">
+			{{#with second_part}}
+			<h1 class="text-center mb-2 mt-2">{{header}}</h1>
 				<section class="col-12 mt-4">
-					<h1 class="text-center mb-2 mt-2">{{header}}</h1>
 					<div class="card-deck">
 						{{#each cards}}
 							<div class="card border-0 " id="workshopCards">
@@ -44,12 +44,12 @@
 						{{/each}}
 					</div>
 				</section>
-				</div>
 			{{/with}}
+			</div>
+			<div class="row">
 			{{#with third_part}}
-				<div class="row">
 					<section class="col-12">
-						<h1 class="mt-5 text-center">{{header}}</h1>
+						<h2 class="mt-5">{{header}}</h2>
 						{{#each items}}
 						<h4 class="mt-3">{{heading}}</h4>
 						<ul>
@@ -70,8 +70,8 @@
 							{{/each}}
 						{{/each}}
 					</section>
-				</div>
 			{{/with}}
+			</div>
 			</div>
 		</div>
 	</main>
