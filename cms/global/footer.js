@@ -6,6 +6,9 @@
     iconPhone: 'fas fa-phone',
     phone: '+46 286 24 10',
     iconEmail: 'fas fa-envelope',
-    email: 'info@q2d.se'
+    email: 'info@q2d.se',
+    year: '2018',
+    company: 'q2d Solutions',
+    copyright: 'far fa-copyright'
   }
 })
