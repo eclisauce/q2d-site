@@ -10,7 +10,8 @@
 				{
 					id: 'headingOne',
 					target: 'collapseOne',
-					header: 'Remix för SAP',
+					headerBtn: 'ReMix för SAP',
+					header: '',
 					title: 'ReMix för SAP',
 					titleh3: 'En innovativ lösning för företag som kör SAP',
 					textOne: 'Snabba resultat, låga kostnader, modern teknik och hög säkerhet.',
@@ -38,7 +39,8 @@
 				{
 					id: 'headingTwo',
 					target: 'collapseTwo',
-					header: 'Vi gör SAP enkelt att använda',
+					headerBtn: 'Vi gör SAP enkelt att använda',
+					header: '',
 					title: '',
 					titleh3: 'ReMix gör det enkelt för användarna att arbeta med SAP',
 					textOne: 'q2d arbetar med att göra SAP-data tillgängligt i andra applikationer och genom andra användargränssnitt än SAP GUI. Ofta handlar det om att göra SAP mer lättanvänt.',
