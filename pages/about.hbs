@@ -8,7 +8,7 @@
 				<div class="row mx-auto" id="about">
 					{{#with about}}
 					<div class="row">
-						<section class="col-12">
+						<section class="col-lg-8 col-12 mx-auto">
 							<h1>{{header}}</h1>
 							{{#each items}}
 							<h4>{{heading}}</h4>
@@ -16,12 +16,28 @@
 								<p>{{text}}</p>
 								{{/each}}
 							{{/each}}
-							<hr>
 							<h3>{{clientsHeader}}</h3>
 							<p>{{clients}}</p>
 						</section>
 					</div>
 					{{/with}}
+				</div>
+				<hr class="col-8">
+				<div class="row">
+					<section class="col-lg-8 col-12 mt-2 mx-auto">
+						{{#with contact}}
+						<h2 class="text-center">{{heading}} <i class="{{contactIcon}}"></i></h2>
+						<div class="col-lg-12 col-12 mt-5 mx-auto" id="map">
+						</div>
+						<div class="col-lg-4 col-12 mt-5 mx-auto">
+							<h4 class="">{{titel}}</h4>
+							<p><i class="{{iconEmail}}"></i> {{email}}</p>
+							<p>{{adressCity}}</p>
+							<p>{{adressStreet}}</p>
+							<p><i class="{{iconPhone}}"></i> {{phone}}</p>
+						</div>
+						{{/with}}
+					</section>
 				</div>
 			</div>
 		</main>
