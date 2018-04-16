@@ -5,9 +5,141 @@
 <body>
   {{>header}}
   <main>
-    <h1>ReMix</h1>
-    <a href="/product">Tillbaka till produkter</a>
+    {{#with ReMix}}
+    <div class="container" id="ReMix">
+      <div class="row">
+        {{#with sectionOne}}
+        <section class="col-lg-8 col-12 mx-auto">
+          <div class="jumbotron jumbotron-fluid mx-auto mt-3 text-light img-fluid" id="introductionJumbotron" style="background-image: url(/assets/img/{{image}});">
+            <div class="container">
+              <h1 class="display-4">{{headingJumboTron}}</h1>
+              <p class="lead">{{textJumboTron}}</p>
+            </div>
+          </div>
+          <p><b>{{textOne}}</b></p>
+          <p>{{textTwo}}</p>
+          <div id="accordion">
+            {{#each accordion}}
+            <div class="card border-0 mt-1">
+              <div class="card-header bg-dark" id="{{id}}" data-toggle="collapse" data-target="#{{target}}" aria-expanded="true" aria-controls="collapseOne" data-toggle="tooltip" title="Tryck för mer information">
+                <h5 class="mb-0 border-0 text-center">
+                  <button class="btn btn-link text-light">
+                    {{header}}
+                  </button>
+                </h5>
+              </div>
 
+              <div id="{{target}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <h1>{{header}}</h1>
+                  <h3>{{titleh3}}</h3>
+                  <p><b>{{textOne}}</b></p>
+                  <p>{{textTwo}}</p>
+                  <h4>{{titleh4}}</h4>
+                  <p>{{textThree}}</p>
+                  <p class="lead">{{textFour}}</p>
+                  <ul>
+                    {{#each list}}
+                    <li>{{listText}}</li>
+                    {{/each}}
+                  </ul>
+                  <h4>{{titleh4Two}}</h4>
+                  <p>{{textFive}}</p>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </section>
+        {{/with}}
+
+        {{#with sectionTwo}}
+        <section class="col-lg-8 col-12 mx-auto">
+          <h4 class="mt-3">{{heading}}</h4>
+          <p>{{textOne}}</p>
+          <p class="lead">{{textTwo}}</p>
+          <ul>
+            {{#each list}}
+            <li>{{listText}}</li>
+            {{/each}}
+          </ul>
+          <div id="accordion">
+            {{#with webbportal}}
+            <div class="card border-0">
+              <div class="card-header mb-1 bg-dark" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne" data-toggle="tooltip" title="Tryck för mer information">
+                <h5 class="mb-0 text-center">
+                  <button class="btn btn-link text-light">
+                    {{btnTitle}}
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  <h2>{{title}}</h2>
+                  <img src="/assets/img/{{image}}" alt="" class="img-fluid">
+                  <p class="lead">{{textOne}}</p>
+                  <p>{{textTwo}}</p>
+                  <ul>
+                    {{#each list}}
+                    <li>{{listText}}</li>
+                    {{/each}}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{/with}}
+            {{#with mobilportal}}
+            <div class="card border-0">
+              <div class="card-header bg-dark text-light" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo" data-toggle="tooltip" title="Tryck för mer information">
+                <h5 class="mb-0 text-center">
+                  <button class="btn btn-link text-light">
+                    {{btnTitle}}
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  {{#with sectionOne}}
+                  <h1>{{title}}</h1>
+                  <p class="lead">{{textOne}}</p>
+                  <p>{{textTwo}}</p>
+                  <hr>
+                  {{/with}}
+                  {{#with sectionTwo}}
+                  <img src="/assets/img/{{image}}" class="img-fluid float-right d-none d-md-block" alt="">
+                  <h2>{{title}}</h2>
+                  <h4><b>{{heading}}</b></h4>
+                  <p>{{textOne}}</p>
+                  <p>{{textTwo}}</p>
+                  <p>{{textThree}}</p>
+                  <hr>
+                  {{/with}}
+                  {{#with sectionThree}}
+                  <h2>{{title}}</h2>
+                  <p>{{textOne}}</p>
+                  <img src="/assets/img/{{image}}" alt="" class="img-fluid float-right p-2 d-none d-md-block">
+                  <p>{{textTwo}}</p>
+                  <p>{{textThree}}</p>
+                  <hr>
+                  {{/with}}
+                </div>
+              </div>
+            </div>
+            {{/with}}
+          </div>
+          <h4 class="mt-3">{{headingTwo}}</h4>
+          <p>{{textThree}}</p>
+
+        <h4><a href="/product" class="text-dark" id="integrationLink"><i class="fas fa-arrow-left"></i> Tillbaka till produkter</a></h4>
+        </section>
+        {{/with}}
+      </div>
+
+    </div>
+
+    {{/with}}
   </main>
   {{>footer}} {{>scripts}}
 </body>
