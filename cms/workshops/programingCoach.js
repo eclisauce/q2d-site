@@ -5,7 +5,7 @@
 		jumbotronText: 'Två tjänster som vi erbjuder innebär utbildning på plats; programmerings coaching och arkitektbollplank.',
 		items: [
 			{
-				heading: '',
+				heading: 'Programmerings coaching och arkitektbollplank',
 				texts: [
 					{
 						text: 'Upptäck möjligheterna och potentialen med webbteknik i modern applikationsutveckling. Se hur detta kan användas i molnlösningar.'

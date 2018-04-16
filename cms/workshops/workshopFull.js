@@ -6,7 +6,7 @@
 		price: 'Pris: 6.000 SEK',
 		items: [
 			{
-				heading: '',
+				heading: 'Heldag Workshop',
 				texts: [
 					{
 						text: 'Upptäck möjligheterna och potentialen med webbteknik i modern applikationsutveckling. Se hur detta kan användas i molnlösningar.'

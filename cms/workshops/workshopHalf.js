@@ -1,12 +1,12 @@
 ({
 	workshopHalf: {
-		header: 'Workshop Halvdag workshop (ca 4 Timmar)',
+		header: 'Halvdag workshop (ca 4 Timmar)',
 		image: 'workshop/workshopHalfJumbotron-img.jpg',
 		memberNumber: 'Max 8 deltagare',
 		price: 'Pris: 12.000 SEK',
 		items: [
 			{
-				heading: '',
+				heading: 'Halvdag workshop',
 				texts: [
 					{
 						text: 'Vi håller en workshop under en halvdag.pptäck möjligheterna och potentialen med webbteknik i modern applikationsutveckling. Se hur detta kan användas i molnlösningar.'
