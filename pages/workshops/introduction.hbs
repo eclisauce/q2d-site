@@ -3,57 +3,57 @@
 {{>head}}
 
 <body>
-	{{>header}}
-	<main>
-		<div class="container">
-	<div class="row mx-auto" id="introduction">
-			{{#with introduction}}
-			<section>
-			<div class="jumbotron jumbotron col-lg-10 col-12 mx-auto mt-3 text-light img-fluid" id="introductionJumbotron" style="background-image: url(/assets/img/{{image}});">
-				<div class="container">
-					<h1 class="display-4">{{title}}</h1>
-					<p class="lead">{{textOne}}</p>
-				</div>
-			</div>
-					<h2 class="text-center">{{headerOne}}</h2>
-					<h4 class="text-center">{{headerTwo}}</h4>
-				</section>
-				<section class="col-lg-8 col-12 mx-auto">
-					{{#each items}}
-					<h4>{{heading}}</h4>
-					<ul>
-						{{#each texts}}
-						<li>{{text}}</li>
-						{{/each}}
-					</ul>
-					{{/each}}
-				</section>
-			{{/with}}
-			<div class="row">
-				<section class="col-lg-8 col-12 mx-auto">
-					{{#with educator}}
-						<h3>{{heading}}</h3>
-						<p>{{name}}</p>
-						<img class="img-fluid mt-1 mb-1" src="/assets/img/{{image}}" alt="">
-						<p>{{infoText}}</p>
-						<p><b>{{price}}</b></p>
-						<p>{{readerInfo}}</p>
-					{{/with}}
-				</section>
-				<section class="col-lg-8 col-12 mx-auto">
-					{{#with application}}
-						<h4>{{heading}}</h4>
-						<p>{{latestDate}}</p>
-						<p>{{applicationPhone}}</p>
-						<p>{{applicationEmail}}</p>
-					{{/with}}
-				</section>
+  {{>header}}
+  <main>
+    <div class="container">
+      <div class="row mx-auto" id="introduction">
+        {{#with introduction}}
+          <section>
+            <div class="jumbotron jumbotron col-lg-10 col-12 mx-auto mt-3 text-light img-fluid" id="introductionJumbotron" style="background-image: url(/assets/img/{{image}});">
+              <div class="container">
+                <h1 class="display-4">{{title}}</h1>
+                <p class="lead">{{textOne}}</p>
+              </div>
+            </div>
+            <h2 class="text-center">{{headerOne}}</h2>
+            <h4 class="text-center">{{headerTwo}}</h4>
+          </section>
+          <section class="col-lg-8 col-12 mx-auto">
+            {{#each items}}
+              <h4>{{heading}}</h4>
+              <ul>
+                {{#each texts}}
+                  <li>{{text}}</li>
+                {{/each}}
+              </ul>
+            {{/each}}
+          </section>
+        {{/with}}
+        <div class="row">
+          <section class="col-lg-8 col-12 mx-auto">
+            {{#with educator}}
+              <h3>{{heading}}</h3>
+              <p>{{name}}</p>
+              <img class="img-fluid mt-1 mb-1" src="/assets/img/{{image}}" alt="">
+              <p>{{infoText}}</p>
+              <p><b>{{price}}</b></p>
+              <p>{{readerInfo}}</p>
+            {{/with}}
+          </section>
+          <section class="col-lg-8 col-12 mx-auto">
+            {{#with application}}
+              <h4>{{heading}}</h4>
+              <p>{{latestDate}}</p>
+              <p>{{applicationPhone}}</p>
+              <p>{{applicationEmail}}</p>
+            {{/with}}
+          </section>
 
-			</div>
-			</div>
-		</div>
-	</main>
-	{{>footer}} {{>scripts}}
+        </div>
+      </div>
+    </div>
+  </main>
+  {{>footer}} {{>scripts}}
 </body>
 
 </html>

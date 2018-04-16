@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html>
-	{{>head}}
-	<body>
-    {{>header}}
-		<main>
-      <div class="container">
-				<div class="row">
-					{{#with workshop}}
-					<section class="col-12">
-						<h1 class="mt-2 mb-3">{{heading}}</h1>
-						{{#each workshopJumbotron}}
-						<div class="row mt-2">
-						<div class="jumbotron col-lg-10 col-12 mx-auto m-2 p-2 text-light" id="{{workshopJumbotronId}}" style="background-image: url(/assets/img/{{image}});">
-						  <h1 class="display-5">{{title}}</h1>
-						  <p class="lead">{{textOne}}</p>
-						  <p class="lead">{{textTwo}}</p>
-						  <!-- <p class="lead"> -->
-						    <a class="btn btn-info btn-lg m-2 text-center" href="{{link}}" role="button">{{linkText}}</a>
-						  <!-- </p> -->
-						</div>
-						</div>
-						{{/each}}
-					</section>
-					{{/with}}
+{{>head}}
 
-				</div>
+<body>
+  {{>header}}
+  <main>
+    <div class="container">
+      <div class="row">
+        {{#with workshop}}
+          <section class="col-12">
+            <h1 class="mt-2 mb-3">{{heading}}</h1>
+            {{#each workshopJumbotron}}
+              <div class="row mt-2">
+                <div class="jumbotron col-lg-10 col-12 mx-auto m-2 p-2 text-light" id="{{workshopJumbotronId}}" style="background-image: url(/assets/img/{{image}});">
+                  <h1 class="display-5">{{title}}</h1>
+                  <p class="lead">{{textOne}}</p>
+                  <p class="lead">{{textTwo}}</p>
+                  <!-- <p class="lead"> -->
+                  <a class="btn btn-info btn-lg m-2 text-center" href="{{link}}" role="button">{{linkText}}</a>
+                  <!-- </p> -->
+                </div>
+              </div>
+            {{/each}}
+          </section>
+        {{/with}}
+
       </div>
+    </div>
 
-		</main>
+  </main>
 
 
-		{{>footer}}
-		{{>scripts}}
-	</body>
+  {{>footer}} {{>scripts}}
+</body>
 
 </html>
