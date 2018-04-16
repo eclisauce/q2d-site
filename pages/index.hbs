@@ -33,13 +33,13 @@
                 <div class="card-deck">
                   {{#each cards}}
                     <div class="card border-0 " id="workshopCards">
-                      <img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap">
+                      <a href="{{link}}" data-toggle="tooltip" title="Mer information"><img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap"></a>
                       <div class="card-body">
                         <h4 class="card-title">{{title}}</h4>
                         <p class="card-text">{{text}}</p>
                       </div>
                       <div class="card-footer border-0">
-                        <a href="{{link}}" class="btn btn-primary">{{linkText}}</a>
+                        <a href="{{link}}" class="btn btn-primary" data-toggle="tooltip" title="Mer information">{{linkText}}</a>
                       </div>
                     </div>
                   {{/each}}
