@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{{>head}}
+
+<body>
+  {{>header}}
+  <main>
+    <div class="container" id="integration">
+      <div class="row">
+        <section class="col-lg-8 col-12 mx-auto">
+        {{#with integration}}
+        <h1>{{heading}}</h1>
+        <img src="/assets/img/{{image}}" alt="" class="img-fluid col-5">
+        {{#each items}}
+            <p>{{text}}</p>
+          {{/each}}
+        {{/with}}
+        <h4><a href="/product" class="text-dark" id="integrationLink"><i class="fas fa-arrow-left"></i> Tillbaka till produkter</a></h4>
+        </section>
+      </div>
+
+    </div>
+
+
+  </main>
+  {{>footer}} {{>scripts}}
+</body>
+
+</html>
