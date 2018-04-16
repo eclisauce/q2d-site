@@ -1,0 +1,47 @@
+.navbar {
+    background-color: lightsteelblue;
+}
+.nav-link {
+    color:black;
+}
+
+.logga{
+    width: 200px;
+}
+.jumbotron{
+    background-image: url('/assets/img/index/board.jpg');
+    height: 100%;
+width: 100%;
+background-size: cover;
+}
+
+.knapp {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border:0px solid transparent;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
