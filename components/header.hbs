@@ -1,11 +1,14 @@
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid fixed-top">
+    <a class="navbar-brand" href="/" data-toggle="tooltip" title="Startsida">
+      <img class="img-fluid" src="/assets/img/q2d_logo.png" width="100" height="20" alt="">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         {{#each global.mainmenu.items}}
           <li class="nav-item">
             <a class="nav-link" href="{{link}}">{{label}}</a>

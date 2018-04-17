@@ -1,1 +1,23 @@
 @import "index";
+@import "fonts";
+@import "product";
+@import "products";
+@import "workshop";
+@import "workshops";
+@import "about";
+
+main{
+  margin-top: 70px;
+}
+
+body{
+}
+
+footer{
+  position: absolute;
+  bottom: 1;
+}
+
+#emailLink{
+  text-decoration: none;
+}

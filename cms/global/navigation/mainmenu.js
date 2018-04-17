@@ -8,7 +8,7 @@
 			},
 			{
 				label: 'Produkter',
-				link: '/products',
+				link: '/product',
 				new_window: false
 			},
 			{
