@@ -1,5 +1,6 @@
 {
 	"project_name": "q2d Solutions AB",
 	"project_slug": "ei",
-	"babel": "main"
+	"babel": "main",
+	"juicebox_enabled": true
 }
