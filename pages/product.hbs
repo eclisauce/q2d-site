@@ -13,11 +13,10 @@
           <p>{{text}}</p>
           {{#each productJumbotron}}
             <div class="row mt-2">
-              <div class="jumbotron col-lg-10 col-12 mx-auto m-2 p-2 text-light" id="{{productJumbotronId}}" style="background-image: url(/assets/img/{{image}});">
-                <h1 class="display-5">{{title}}</h1>
+              <div class="jumbotron col-lg-10 col-12 mx-auto m-2 p-1 text-light" id="{{productJumbotronId}}" style="background-image: url(/assets/img/{{image}});">
+                <h1 class="">{{title}}</h1>
                 <p class="lead">{{textOne}}</p>
-                <p class="lead">{{textTwo}}</p>
-                <a class="btn btn-info btn-lg m-2 text-center" href="{{link}}" role="button">{{linkText}}</a>
+                <a class="btn btn-info btn-lg m-1 text-center" href="{{link}}" role="button">{{linkText}}</a>
               </div>
             </div>
           {{/each}}
