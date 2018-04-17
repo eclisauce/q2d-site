@@ -31,11 +31,14 @@
             <div class="col-lg-12 col-12 mt-5 mx-auto" id="map">
             </div>
             <div class="col-lg-4 col-12 mt-5 mx-auto">
-              <h4 class="">{{titel}}</h4>
-              <p><i class="{{iconEmail}}"></i> {{email}}</p>
+              <a href="mailto:{{email}}" class="text-dark" id="emailLink" data-toggle="tooltip" title="Klicka för att skicka Email">
+                <p><i class="{{iconEmail}}"></i> {{email}}</p>
+              </a>
               <p>{{adressCity}}</p>
               <p>{{adressStreet}}</p>
-              <p><i class="{{iconPhone}}"></i> {{phone}}</p>
+              <a href="tel: {{phone}}" class="text-dark" id="emailLink">
+                <p><i class="{{iconPhone}}"></i> {{phone}}</p>
+              </a>
             </div>
           {{/with}}
         </section>
