@@ -1,3 +1,0 @@
-define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<head>\r\n  <title>q2d Solutions AB</title>\r\n  <link rel=\"stylesheet\" href=\"/assets/css/main.css\">\r\n  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\r\n  <link href=\"https://fonts.googleapis.com/css?family=Lato:100,200\" rel=\"stylesheet\">\r\n  <style type=\"text/css\"></style>\r\n</head>\r\n";
-},"useData":true}); });

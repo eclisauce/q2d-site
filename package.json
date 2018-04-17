@@ -10,6 +10,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"babel": "^6.23.0",
-		"enduro": "*"
+		"enduro": "*",
+		"uglify-js": "^3.3.20"
 	}
 }
