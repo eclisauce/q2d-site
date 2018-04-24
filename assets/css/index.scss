@@ -1,21 +1,68 @@
-.card-footer{
-  background-color: transparent;
+// Start Old SCSS----------------------------------------------------------------
+// .card-footer{
+//   background-color: transparent;
+// }
+//
+// #mainHeader{
+//    // font-family: 'Spectral SC', serif;
+//   // font-family: 'Cinzel', serif;
+// }
+//
+// #workshopCards{
+//   background-color: rgba(233, 233, 233, 0.42);
+// }
+//
+// #part_three-card{
+//   background-color: transparent;
+// }
+//
+// #part_three-img{
+//   border-radius: 3px;
+//
+// }
+
+//End old SCSS----------------------------------------------------------------
+
+.background-image{
+  margin-top: -6px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  text-shadow: 2px 2px #000;
 }
 
-#mainHeader{
-   // font-family: 'Spectral SC', serif;
-  // font-family: 'Cinzel', serif;
+.centerd{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#workshopCards{
-  background-color: rgba(233, 233, 233, 0.42);
+#indexJumbotronReMix{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  text-shadow: 1px 1px #000;
 }
 
-#part_three-card{
-  background-color: transparent;
+#indexJumbotronIntegration{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  text-shadow: 1px 1px #000;
 }
 
-#part_three-img{
-  border-radius: 3px;
-
+#indexJumbotronSenseSec{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  text-shadow: 1px 1px #000;
 }
