@@ -45,6 +45,7 @@
 .imgFirstPart{
   padding-left: 0;
   padding-right: 0;
+  border-radius: 3px;
 }
 
 .startPageFirstPartTextArea{
@@ -56,8 +57,7 @@
 }
 
 .startPageFirstPartEmptyDiv{
-  background-color: rgba(230, 230, 230, 0.63);
-  border-left: 1px solid #000;
+  background-color: rgba(230, 230, 230, 0.43);
 }
 
 .startPageFirstPartTextArea ul{
@@ -105,8 +105,7 @@
 }
 
 .startPageSecondPartEmptyDiv{
-  background-color: rgba(230, 230, 230, 0.63);
-  border-right: 1px solid #000;
+  background-color: rgba(230, 230, 230, 0.43);
 }
 
 .startPageSecondPartTextArea ul{
