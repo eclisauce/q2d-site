@@ -7,7 +7,7 @@
 @import "about";
 
 main{
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 body{
@@ -20,4 +20,26 @@ footer{
 
 #emailLink{
   text-decoration: none;
+}
+
+.navbar {
+  background-color:rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  }
+
+  .navbar ul li a{
+    color: #fff !important;
+  }
+
+  .navbar button .navbar-toggler{
+    color: #fff !important;
+  }
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: #343a40; /* NON-IE */
 }
