@@ -1,21 +1,143 @@
-.card-footer{
-  background-color: transparent;
+// Start Old SCSS----------------------------------------------------------------
+// .card-footer{
+//   background-color: transparent;
+// }
+//
+// #mainHeader{
+//    // font-family: 'Spectral SC', serif;
+//   // font-family: 'Cinzel', serif;
+// }
+//
+// #workshopCards{
+//   background-color: rgba(233, 233, 233, 0.42);
+// }
+//
+// #part_three-card{
+//   background-color: transparent;
+// }
+//
+// #part_three-img{
+//   border-radius: 3px;
+//
+// }
+
+//End old SCSS----------------------------------------------------------------
+
+.background-image{
+  margin-top: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  text-shadow: 2px 2px #000;
 }
 
-#mainHeader{
-   // font-family: 'Spectral SC', serif;
-  // font-family: 'Cinzel', serif;
+.centerd{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#workshopCards{
-  background-color: rgba(233, 233, 233, 0.42);
-}
 
-#part_three-card{
-  background-color: transparent;
-}
 
-#part_three-img{
+.imgFirstPart{
+  padding-left: 0;
+  padding-right: 0;
   border-radius: 3px;
+}
 
+.startPageFirstPartTextArea{
+  position: absolute;
+  float: right !important;
+  margin-left: 600px;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.startPageFirstPartEmptyDiv{
+  background-color: rgba(230, 230, 230, 0.43);
+}
+
+.startPageFirstPartTextArea ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .startPageFirstPartTextArea{
+    position: relative;
+    float: right !important;
+    margin-left: 0;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .startPageFirstPartTextArea{
+    position: absolute;
+    float: right !important;
+    margin-left: 700px;
+    z-index: 1;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .startPageFirstPartTextArea{
+    position: absolute;
+    float: right !important;
+    margin-left: 1000px;
+    z-index: 1;
+    border-radius: 3px;
+  }
+}
+
+
+
+.startPageSecondPartTextArea{
+  position: absolute;
+  float: right !important;
+  margin-left: 150px;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.startPageSecondPartEmptyDiv{
+  background-color: rgba(230, 230, 230, 0.43);
+}
+
+.startPageSecondPartTextArea ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .startPageSecondPartTextArea{
+    position: relative;
+    float: right !important;
+    margin-left: 0;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .startPageSecondPartTextArea{
+    position: absolute;
+    float: right !important;
+    margin-left: 700px;
+    z-index: 1;
+    border-radius: 3px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .startPageSecondPartTextArea{
+    position: absolute;
+    float: right !important;
+    margin-left: 1000px;
+    z-index: 1;
+    border-radius: 3px;
+  }
 }
