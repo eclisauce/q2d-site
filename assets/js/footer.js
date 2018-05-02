@@ -1,9 +1,9 @@
-static footerFix() {
+function footerFix() {
   let height = $('footer').outerHeight() + 200;
   $('body').css({marginBottom: height});
 }
 
-fixOnResize() {
+function fixOnResize() {
   $(window).on('resize',function(){
     Footer.footerFix();
   });
