@@ -8,14 +8,17 @@
   <main>
     {{#with topImage}}
     <div class="background-image" style="background-image: url(/assets/img/{{image}});">
-      <h1 class="centerd text-light text-center">{{title}}<p class="text-light text-center lead">{{subText}}</p></h1>
+      <h1 class="centerd text-light text-center">{{title}}
+        <p class="text-light text-center lead">{{subText}}</p>
+        <a href="/oldStartPage">Till den "gamla" Startsidan</a>
+       </h1>
 
     </div>
     {{/with}}
     <div class="container-fluid">
       <div class="row">
         {{#with firstPart}}
-        <section class="col-12 startPageFirstPart">
+        <section class="col-12 startPageFirstPart" id="testing">
           <div class="col-12 text-center mt-4">
             <h1 class="display-4">q2d Solutions AB - Din IT partner</h1>
             <p class="lead">Vi strävar efter en långsiktig relation med våra kunder. q2d levererar lösningar och tillhandahåller support och uppföljning. Vi arbetar nära våra kunder och tar hand om alla faser i projekten. För oss är det viktigt att följa avtalade budgets och tidplaner.</p>
@@ -40,7 +43,7 @@
         {{#with secondPart}}
         <section class="col-10 mx-auto startPageSecondPart mt-4">
           <div class="row">
-            <h3 class="mx-auto">Behöver du eller ditt team utbildning inom de senaste teknikerna för webben?</h3>
+            <h3 class="mx-auto text-center">Behöver du eller ditt team utbildning inom de senaste teknikerna för webben?</h3>
             <p class="lead mx-auto">Vi kan bistå med rådgivning och utredningar både inom IT och inom rena verksamhetsfrågor.</p>
           </div>
         </section>
