@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+{{>head}}
+<!--{{>header}}  -->
+
+<body>
+
+  <div class="banner">
+    <div class="container-fluid">
+
+      {{>header}}
+       <div class="centered">
+    <p><h1>Licensfria webbportaler och <br>mobila appar</h1>
+    <h2>Snabbt, användarvänligt, säkert <br>och kostnadseffektivt</h2></p>
+
+  </div>
+  <a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="/assets/img/arrow-down-1.png"></a>
+    </div> <!--container end-->
+     </div> <!--banner end -->
+
+<div class="main">
+   <section id="section2">
+     {{#with first_part}}
+     <div class="card-deck mt-4 mx-auto">
+       {{#each cards}}
+         <div class="card border-0">
+           <h2 class="text-center">{{header}}</h2>
+           <a href="{{link}}" data-toggle="tooltip" title="Mer information"><img class="card-img-top img-fluid" src="/assets/img/{{image}}" alt="Card image cap"></a>
+           <div class="card-body">
+             <h5 class="card-title text-dark">{{title}}</h5>
+             <p class="card-text">{{text}}</p>
+             <a href="{{link}}" class="btn btn-dark text-light" data-toggle="tooltip" title="Mer information">{{linkText}}</a>
+           </div>
+         </div>
+       {{/each}}
+     </div>
+     {{/with}}
+   </section>
+   </div>
+
+
+
+
+
+
+<hr>
+  {{>footer}}{{>scripts}}
+
+
+</body>
+
+</html>
