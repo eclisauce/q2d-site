@@ -1,3 +1,28 @@
+// Start Old SCSS----------------------------------------------------------------
+.card-footer{
+  background-color: transparent;
+}
+
+#mainHeader{
+   // font-family: 'Spectral SC', serif;
+  // font-family: 'Cinzel', serif;
+}
+
+#workshopCards{
+  background-color: rgba(233, 233, 233, 0.42);
+}
+
+#part_three-card{
+  background-color: transparent;
+}
+
+#part_three-img{
+  border-radius: 3px;
+
+}
+
+//End old SCSS----------------------------------------------------------------
+
 .background-image{
   margin-top: -100px;
   background-repeat: no-repeat;
@@ -10,43 +35,10 @@
 
 .centerd{
   position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    color:white;
-    list-style: none;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-@media only screen and (min-width: 1300px) {
-  .centerd{
-    position: absolute;
-      top: 30%;
-      left: 40%;
-      transform: translate(-50%, -50%);
-      color:white;
-      list-style: none;
-  }
-}
-
-.centerdBtn{
-  position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:white;
-    list-style: none;
-}
-
-@media only screen and (min-width: 1300px) {
-  .centerdBtn{
-    position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color:white;
-      list-style: none;
-  }
-}
-
 
 
 
@@ -63,13 +55,11 @@
   margin-top: 30px !important;
   z-index: 1;
   border-radius: 3px;
-  background-color: rgba(210, 213, 214, 0.77);
 }
 
 .startPageFirstPartEmptyDiv{
-  background-color: rgb(122, 122, 122);
+  background-color: rgba(230, 230, 230, 0.43);
 }
-
 
 .startPageFirstPartTextArea ul{
   list-style: none;
@@ -89,11 +79,10 @@
   .startPageFirstPartTextArea{
     position: absolute;
     float: right !important;
-    margin-top: 30px !important;
+    margin-top: 80px !important;
     margin-left: 700px;
     z-index: 1;
     border-radius: 3px;
-    font-size: 20px;
   }
 }
 
@@ -101,11 +90,10 @@
   .startPageFirstPartTextArea{
     position: absolute;
     float: right !important;
-    margin-left: 1300px;
+    margin-left: 1000px;
     margin-top: 100px !important;
     z-index: 1;
     border-radius: 3px;
-    font-size: 26px;
   }
 }
 
@@ -115,12 +103,19 @@
   position: absolute;
   float: right !important;
   margin-left: 130px;
-  margin-top: 30px !important;
+  margin-top: 50px !important;
   z-index: 1;
   border-radius: 3px;
-  background-color: rgba(210, 213, 214, 0.77);
 }
 
+.startPageSecondPartEmptyDiv{
+  background-color: rgba(230, 230, 230, 0.43);
+}
+
+.startPageSecondPartTextArea ul{
+  list-style: none;
+  padding-left: 0;
+}
 
 @media only screen and (max-width: 900px) {
   .startPageSecondPartTextArea{
@@ -136,10 +131,9 @@
     position: absolute;
     float: right !important;
     margin-left: 100px;
-    margin-top: 20px !important;
+    margin-top: 100px !important;
     z-index: 1;
     border-radius: 3px;
-    font-size: 20px;
   }
 }
 
@@ -148,9 +142,8 @@
     position: absolute;
     float: right !important;
     margin-left: 100px;
-    margin-top: 60px !important;
+    margin-top: 100px !important;
     z-index: 1;
     border-radius: 3px;
-    font-size: 26px;
   }
 }
