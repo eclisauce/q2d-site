@@ -1,7 +1,9 @@
 .banner {
     width: 100%;
-    height: 700px;
+    height: 600px;
     background: url('/assets/img/beach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .my-navbar {
@@ -41,9 +43,9 @@
     transform: translate(-50%, -50%);
   }
 
-  h1, h2{
-      color:white;
-  }
+  // h1, h2{
+  //     color:white;
+  // }
   .jumbotron h2{
       color:black;
   }
