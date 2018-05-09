@@ -7,7 +7,7 @@
 				new_window: false
 			},
 			{
-				label: 'Vad vi erbjuder',
+				label: 'Produkter',
 				link: '/product',
 				new_window: false
 			},
