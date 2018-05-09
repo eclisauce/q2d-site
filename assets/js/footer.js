@@ -1,5 +1,5 @@
 function footerFix() {
-  let height = $('footer').outerHeight() + 200;
+  let height = $('footer').outerHeight() + 100;
   $('body').css({marginBottom: height});
 }
 

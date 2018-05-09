@@ -28,8 +28,11 @@
 				textOne: 'En introduktion till licensfria webbtekniker och integration.',
 				textTwo: '',
 				linkText: 'Läs mer',
-				link: '/products/senseSec'
+				link: '/products/IoT-Solutions'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1525863432
 	}
 })
