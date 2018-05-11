@@ -1,7 +1,7 @@
 ({
 	integration: {
 		heading: 'Licensfri Integration',
-		image: '',
+		image: 'integration-test1.jpeg',
 		items: [
 			{
 				text: 'Remix är namnet på vårt koncept där vi använder licensfria produkter för att bygga webb- och mobila lösningar samt integration.'

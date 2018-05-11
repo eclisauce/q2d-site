@@ -1,6 +1,6 @@
 ({
 	topImage: {
-	  image: 'bg-third.jpeg',
+	  image: 'beach.jpg',
 	  title: 'Licensfria webbportaler och mobila appar',
 	  subText: 'Snabbt, användarvänligt, säkert och kostnadseffektivt'
 	},
