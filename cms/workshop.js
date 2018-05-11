@@ -1,7 +1,8 @@
 ({
   workshop: {
     heading: 'Utbildningar och Workshops vi erbjuder',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    textOne: 'I de fall kunden själv har IT kompetens erbjuder vi utbildning så att kunden själv kan helt eller delvis utveckla och ta ansvar för de system vi hjälpt dem utveckla.',
+    textTwo: 'Vi har även utbildningar för dom som vill lära sig mer om de tekniker och produkter vi jobbar med. Utbildningarna kan vara företagsanpassade och utföras hos er om så önskas.',
     workshopJumbotron: [{
         title: 'Introduktion till programmering',
         workshopJumbotronId: 'workshopJumbotronIntroduction',

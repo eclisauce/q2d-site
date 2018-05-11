@@ -1,7 +1,9 @@
 ({
 	product: {
 		header: 'Produkter från q2d',
-		text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+		textOne: 'Q2d är ett företag med experter på integration till affärssystem. Vi bygger kundunika webbportaler och mobila appar som oftast är integrerade mot företags affärssystem. Vi jobbar med öppen källkod och licensfria produkter. D v s våra kunder betalar inga licenskostnader för sina portaler, mobila appar och integrationsprodukten.',
+		textTwo: 'Våra lösningar har kört i affärskritiska applikationer sedan 2012 och har visat sig vara stabila och uppgraderingsbara.',
+		textThree: 'Vi har använt vår kompetens i att bygga programvara genom att skapa en produkt som hanterar säkerhet i IoT (Internet of Things) nätverk. Produkten heter SenseSec. I samband med detta erbjuder vi prototyp-projekt för kunder som vill testa IoT med LoRa.',
 		productJumbotron: [
 			{
 				title: 'ReMix',
