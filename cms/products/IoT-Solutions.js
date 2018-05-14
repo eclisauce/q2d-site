@@ -8,7 +8,7 @@
 		textThree: 'SenseSec är vår programvara som hanterar sensorerna och infrastrukturen',
     subHeaderTwo: 'Prototypverkstad:',
     textFour: 'Vi hjälper er att testa IoT lösningar i din verksamhet.',
-    linkOne: '',
+    linkOne: 'https://www.elsys.se/en/',
     linkOneText: 'Elsys hemsida',
     linkTwo: '',
     linkTwoText: 'SenseSec'
