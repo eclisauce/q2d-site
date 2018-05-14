@@ -6,13 +6,13 @@
 		textThree: 'Vi har använt vår kompetens i att bygga programvara genom att skapa en produkt som hanterar säkerhet i IoT (Internet of Things) nätverk. Produkten heter SenseSec. I samband med detta erbjuder vi prototyp-projekt för kunder som vill testa IoT med LoRa.',
 		productJumbotron: [
 			{
-				title: 'ReMix',
-				productJumbotronId: 'productJumbotronReMix',
-				image: 'index/remix-test1.jpg',
-				textOne: 'Licensfria webbportaler och mobila appar',
+				title: 'SenseSec',
+				productJumbotronId: 'productJumbotronSenseSec',
+				image: 'index/sensesec-test1.jpeg',
+				textOne: 'En introduktion till licensfria webbtekniker och integration.',
 				textTwo: '',
 				linkText: 'Läs mer',
-				link: '/products/ReMix'
+				link: '/products/IoT-Solutions'
 			},
 			{
 				title: 'Licensfri integration',
@@ -24,13 +24,13 @@
 				link: '/products/integration'
 			},
 			{
-				title: 'SenseSec',
-				productJumbotronId: 'productJumbotronSenseSec',
-				image: 'index/sensesec-test1.jpeg',
-				textOne: 'En introduktion till licensfria webbtekniker och integration.',
+				title: 'ReMix',
+				productJumbotronId: 'productJumbotronReMix',
+				image: 'index/remix-test1.jpg',
+				textOne: 'Licensfria webbportaler och mobila appar',
 				textTwo: '',
 				linkText: 'Läs mer',
-				link: '/products/IoT-Solutions'
+				link: '/products/ReMix'
 			}
 		]
 	},

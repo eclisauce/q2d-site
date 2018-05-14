@@ -8,78 +8,68 @@
   <main>
     {{#with topImage}}
     <div class="background-image" style="background-image: url(/assets/img/{{image}});">
-      <!-- <h1 class="centerd text-light text-center">{{title}}
-        <p class="text-light text-center lead">{{subText}}</p>
-        <a href="/oldStartPage">Till den "gamla" Startsidan</a>
-        <a href="/alternativeStartPage">Till ett "exempel" Startsidan</a>
-       </h1> -->
-
        <div class="centerd">
-         <h1 class="mt-1">Licensfria webbportaler och mobila appar.</h1>
-         <h1 class="mt-1">Licensfri integration.</h1>
-         <h1 class="mt-1">IoT lösningar baserade på LoRaWan.</h1>
+         <h1 class="mt-1">{{titleOne}}</h1>
+         <h1 class="mt-1">{{titleTwo}}</h1>
+         <h1 class="mt-1">{{titleThree}}</h1>
        </div>
        <div class="centerdBtn">
          <h1><a href="#target" class="text-light"><i class="fas fa-arrow-circle-down"></i></a></h1>
        </div>
-
-
-
     </div>
     {{/with}}
-    <div class="" id="target">
-
-    </div>
+    <div class="" id="target"></div>
     <div class="container-fluid">
       <div class="row">
+        {{#with Heading}}
         <div class="col-12 text-center textFields mt-1">
-          <h1 class="display-4">q2d Solutions AB - Din IT partner</h1>
-          <p class="lead">Vi strävar efter en långsiktig relation med våra kunder. q2d levererar lösningar och tillhandahåller support och uppföljning. Vi arbetar nära våra kunder och tar hand om alla faser i projekten. För oss är det viktigt att följa avtalade budgets och tidplaner.</p>
+          <h1 class="display-4">{{title}}</h1>
+          <p class="lead">{{text}}</p>
         </div>
+        {{/with}}
         {{#with firstPart}}
-        <h2 class="mx-auto mt-3"><b>IoT lösningar baserade på LoRa</b></h2>
+        <h2 class="mx-auto mt-3"><b>{{title}}</b></h2>
         <section class="col-12 startPageFirstPart mt-2" id="testing">
           <div class="row startPageImgArea">
           <div class="col-lg-7 d-none d-lg-block bg-primary imgFirstPart">
-            <img src="/assets/img/index/startPageFirstPart.jpeg" alt="" class="img-fluid">
+            <img src="/assets/img/index/{{image}}" alt="" class="img-fluid">
           </div>
           <div class="col-lg-5 col-12 startPageFirstPartTextArea mt-3 p-3">
-            <h4><b>Testa IoT lösningar i din verksammhet</b></h4>
-            <h4><b>Starta prototypprojekt ihopa med oss.</b></h4>
-            <a href="/products/IoT-Solutions" class="btn bg-dark mb-2 text-light">Läs mer om IoT lösningar</a>
+            <h4><b>{{textOne}}</b></h4>
+            <h4>{{textTwo}}</h4>
+            <a href="/products/{{btnLink}}" class="btn bg-dark mb-2 text-light">{{btnText}}</a>
           </div>
           <div class="col-lg-5 col-12 d-none d-lg-block startPageFirstPartEmptyDiv"></div>
           </div>
         </section>
         {{/with}}
         {{#with secondPart}}
-        <h2 class="mx-auto mt-3"><b>Integration</b></h2>
+        <h2 class="mx-auto mt-3"><b>{{title}}</b></h2>
         <section class="col-12 startPageFirstPart mt-2" id="testing">
           <div class="row startPageImgArea">
           <div class="col-lg-6 col-12  text-dark startPageSecondPartTextArea mt-3 p-3">
-            <h4><b>Licensfri Integration</b></h4>
-            <p>q2d kan integration och vår lösning har använts i affärskritiska applikationer i mer än 5 år. Driftsäker och mycket ekonomisk. Vi integrerar mot alla typer av affärssystem och andra system. För flera affärsystem finns färdiga mallar. Exempelvis för SAP.</p>
-            <a href="/products/integration" class="btn bg-dark mb-2 text-light">Läs mer om integrationslösningar</a>
+            <h4><b>{{textOne}}</b></h4>
+            <p>{{textTwo}}</p>
+            <a href="/products/{{btnLink}}" class="btn bg-dark mb-2 text-light">{{btnText}}</a>
           </div>
           <div class="col-lg-6 col-12 d-none d-lg-block startPageFirstPartEmptyDiv"></div>
           <div class="col-lg-6 d-none d-lg-block bg-primary imgFirstPart">
-            <img src="/assets/img/index/integration-test1.jpeg" alt="" class="img-fluid">
+            <img src="/assets/img/index/{{image}}" alt="" class="img-fluid">
           </div>
           </div>
-
         </section>
         {{/with}}
         {{#with thirdPart}}
-        <h2 class="mx-auto mt-3"><b>Moderna webbaplikationer</b></h2>
+        <h2 class="mx-auto mt-3"><b>{{title}}</b></h2>
         <section class="col-12 startPageFirstPart mt-2" id="testing">
           <div class="row startPageImgArea">
           <div class="col-lg-7 d-none d-lg-block bg-primary imgFirstPart">
-            <img src="/assets/img/index/remix-test2.jpg" alt="" class="img-fluid">
+            <img src="/assets/img/index/{{image}}" alt="" class="img-fluid">
           </div>
           <div class="col-lg-5 col-12  startPageFirstPartTextArea mt-3 p-3">
-            <h4><b>Licensfria webbportaler och mobila appar</b></h4>
-            <p>Med modern webbteknik och öppna standards digitaliserar vi våra kunders affärsprocesser. Inga licenskostnader. Driftsäkra, hållbara och uppgraderingsbara. När detta skrivs har lösningar varit i drift i mer än 5 år för affärskritiska tillämpningar. Tekniskt bygger ReMix på modern webbteknik. API orienterad IT-arkitektur UI/UX HTML5, Angular JS, Bootstrap.</p>
-            <a href="/products/ReMix" class="btn bg-dark mb-2 text-light">Läs mer om ReMix</a>
+            <h4><b>{{textOne}}</b></h4>
+            <p>{{textTwo}}</p>
+            <a href="/products/{{btnLink}}" class="btn bg-dark mb-2 text-light">{{btnText}}</a>
           </div>
           <div class="col-lg-5 col-12 d-none d-lg-block startPageFirstPartEmptyDiv"></div>
           </div>
