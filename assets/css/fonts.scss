@@ -5,3 +5,9 @@ h1, h2, h3, h4, h5{
 p, a, li{
   font-family: 'Hind', sans-serif;
 }
+
+@media only screen and (min-width: 1300px) {
+  p, li, a{
+    font-size: 26px;
+  }
+}
