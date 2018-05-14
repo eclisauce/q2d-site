@@ -8,7 +8,7 @@
 
 	Heading:{
 		title: 'q2d Solutions AB - Din IT partner',
-		text: 'Vi strävar efter en långsiktig relation med våra kunder. q2d levererar lösningar och tillhandahåller support och uppföljning. Vi arbetar nära våra kunder och tar hand om alla faser i projekten. För oss är det viktigt att följa avtalade budgets och tidplaner.'
+		text: 'Q2d är ett företag med experter på integration till affärssystem. Vi bygger kundunika webbportaler och mobila appar som oftast är integrerade mot företags affärssystem. Vi jobbar med öppen källkod och licensfria produkter.'
 	},
 
 	firstPart: {
