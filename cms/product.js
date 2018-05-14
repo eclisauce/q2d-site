@@ -6,10 +6,10 @@
 		textThree: 'Vi har använt vår kompetens i att bygga programvara genom att skapa en produkt som hanterar säkerhet i IoT (Internet of Things) nätverk. Produkten heter SenseSec. I samband med detta erbjuder vi prototyp-projekt för kunder som vill testa IoT med LoRa.',
 		productJumbotron: [
 			{
-				title: 'SenseSec',
+				title: 'IoT lösningar baserade på LoRa',
 				productJumbotronId: 'productJumbotronSenseSec',
 				image: 'index/sensesec-test1.jpeg',
-				textOne: 'En introduktion till licensfria webbtekniker och integration.',
+				textOne: 'Testa IoT lösningar i din verksammhet',
 				textTwo: '',
 				linkText: 'Läs mer',
 				link: '/products/IoT-Solutions'

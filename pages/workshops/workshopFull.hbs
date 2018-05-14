@@ -16,7 +16,22 @@
           <div class="row">
             <section class="col-lg-8 col-12 mx-auto">
               {{#each items}}
-                <h4>{{heading}}</h4>
+                <h2>{{heading}}</h2>
+                {{#each texts}}
+                  <p>{{text}}</p>
+                {{/each}}
+              {{/each}}
+              <p><b>{{memberNumber}}</b></p>
+              <p><b>{{price}}</b></p>
+            </section>
+          </div>
+        {{/with}}
+
+        {{#with workshopHalf}}
+          <div class="row mt-3">
+            <section class="col-lg-8 col-12 mx-auto">
+              {{#each items}}
+                <h2>{{heading}}</h2>
                 {{#each texts}}
                   <p>{{text}}</p>
                 {{/each}}
@@ -27,6 +42,7 @@
 
             </section>
           </div>
+
         {{/with}}
 
       </div>

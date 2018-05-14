@@ -22,22 +22,13 @@
         link: '/workshops/programingCoach'
       },
       {
-        title: 'Heldag Workshop',
+        title: 'Workshop hel/halvdag',
         workshopJumbotronId: 'workshopJumbotronFull',
         image: 'workshop/workshopFullJumbotron-img.jpg',
         textOne: 'Modern webbteknik och integration',
         textTwo: '',
         linkText: 'Läs mer',
         link: '/workshops/workshopFull'
-      },
-      {
-        title: 'Halvdag Workshop',
-        workshopJumbotronId: 'workshopJumbotronHalf',
-        image: 'workshop/workshopHalfJumbotron-img.jpg',
-        textOne: 'Modern webbteknik och integration',
-        textTwo: '',
-        linkText: 'Läs mer',
-        link: '/workshops/workshopHalf'
       }
     ]
   }
