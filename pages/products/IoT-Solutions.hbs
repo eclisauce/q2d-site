@@ -24,41 +24,41 @@
         {{/with}}
         </section>
         <section class="col-lg-10 mx-auto col-12 mt-4">
+          {{#with LoRaWAN}}
             <div id="accordion">
               <div class="card">
                 <div class="card-header bg-dark" id="headingOne" data-toggle="tooltip" title="Tryck för mer information">
                   <h5 class="mb-0 text-center">
                     <button class="btn btn-link text-light" id="accordionBtn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Läs mer om LoRaWAN… <i class="fas fa-angle-double-down"></i>
+                      {{btnText}} <i class="fas fa-angle-double-down"></i>
                     </button>
                   </h5>
                 </div>
 
                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    <h3>LoRaWAN</h3>
-                    <p>LoRaWAN är en öppen global standard för Low Power Wide Area Networks (LPWAN). Med LoRaWAN kopplas batteridrivna enheter upp på internet.</p>
-                    <h4>LoRaWAN kännetecknas av:</h4>
+                    <h3>{{title}}</h3>
+                    <p>{{textOne}}</p>
+                    <h4>{{subHeaderOne}}</h4>
                     <ul>
-                      <li>lång räckvidd</li>
-                      <li>liten strömförbrukning</li>
-                      <li>små datamängder</li>
-                      <li>stor förmåga att ”tränga igenom” med signaler till svåråtkomliga utrymmen</li>
-                      <li>lågt pris</li>
+                      {{#each listOne}}
+                      <li>{{listText}}</li>
+                      {{/each}}
                     </ul>
-                    <p>Enheterna drivs med batteri. Batterierna har en drifttid på upp till 10år.</p>
-                    <p>Signalerna har en räckvidd på upp till 15 km.</p>
-                    <p>Användningsområdena är många då man nu kan mäta på svåråtkomliga ställen utan behov av el, internet eller mobil täckning där sensorerna är placerade. Slipp dyr kabeldragning eller dyr utbyggnad av WiFi. Några exempel:</p>
+                    <p>{{textTwo}}</p>
+                    <p>{{textThree}}</p>
+                    <p>{{textFour}}</p>
                     <ul>
-                      <li>Fastigheter, fabriker, lagerlokaler, parkeringshus. Placera ut batteridrivna sensorer för bättre styrning av underhåll, övervakning av temperatur och fuktighet, rörelser, vattenläckage, öppning och stängning av portar, luckor, brunnar m m.</li>
-                      <li>Jordbruk för bättre kontroll av bevattning, gödning och besprutning.</li>
-                      <li>Transporter för bättre klimatkontroll av exemplvis frukt, kött och andra färskvaror.</li>
+                      {{#each listTwo}}
+                      <li>{{listText}}</li>
+                      {{/each}}
                     </ul>
                   </div>
                 </div>
               </div>
 
           </div>
+          {{/with}}
         </section>
     </div>
     <h4><a href="/product" class="text-dark" id="integrationLink"><i class="fas fa-arrow-left"></i> Tillbaka till produkter</a></h4>
