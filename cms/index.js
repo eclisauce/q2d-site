@@ -15,7 +15,7 @@
 	  title: 'IoT lösningar baserade på LoRa',
 		image: 'startPageFirstPart.jpeg',
 	  textOne: 'Testa IoT lösningar i din verksammhet',
-		textTwo: 'Starta prototypprojekt ihopa med oss.',
+		textTwo: 'Starta prototypprojekt ihop med oss.',
 		btnLink: 'IoT-Solutions',
 		btnText: 'Läs mer om IoT lösningar'
 	},
