@@ -8,7 +8,7 @@
 
 	Heading:{
 		title: 'q2d Solutions AB - Din IT partner',
-		text: 'Q2d är ett företag med experter på integration till affärssystem.', ' Vi bygger kundunika webbportaler och mobila appar som oftast är integrerade mot företags affärssystem. Vi jobbar med öppen källkod och licensfria produkter. Vi har även utvecklat en egen programvara, SenseSec, för att hantera säkerhet i IoT nätverk. I samband med SenseSec erbjuder vi tjänsten att ihop med oss testa IoT nätverk i era verksamheter.'
+		text: 'Q2d är ett företag med experter på integration till affärssystem. Vi bygger kundunika webbportaler och mobila appar som oftast är integrerade mot företags affärssystem. Vi jobbar med öppen källkod och licensfria produkter. Vi har även utvecklat en egen programvara, SenseSec, för att hantera säkerhet i IoT nätverk. I samband med SenseSec erbjuder vi tjänsten att ihop med oss testa IoT nätverk i era verksamheter.'
 	},
 
 	firstPart: {
