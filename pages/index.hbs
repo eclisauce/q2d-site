@@ -22,9 +22,13 @@
     <div class="container-fluid">
       <div class="row">
         {{#with Heading}}
-        <div class="col-12 text-center textFields mt-1">
-          <h1 class="display-4">{{title}}</h1>
-          <p class="lead">{{text}}</p>
+        <div class="col-12 textFields mt-1">
+          <h1 class="display-4 text-center">{{title}}</h1>
+          <div class="mx-auto col-9">
+            <p class="lead">{{textOne}}</p>
+            <p class="lead">{{textTwo}}</p>
+            <p class="lead">{{textThree}}</p>
+          </div>
         </div>
         {{/with}}
         {{#with firstPart}}
