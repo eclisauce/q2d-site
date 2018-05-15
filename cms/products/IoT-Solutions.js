@@ -7,7 +7,7 @@
     textTwo: 'LoRa sensorer och gateways kommer ifrån Elsys. Läs mer om produkterna du kan välja bland på',
     textThree: 'SenseSec är vår programvara som hanterar sensorerna och infrastrukturen',
     subHeaderTwo: 'Prototypverkstad:',
-    textFour: 'Vi hjälper er att testa IoT lösningar i din verksamhet.',
+    textFour: 'Vi hjälper er att testa IoT lösningar i din verksamhet. Det går även bra att testa IoT lösningar som inte är baserade på LoRa. SenseSec hanterar flera olika teknologier.',
     linkOne: 'https://www.elsys.se/en/',
     linkOneText: 'Elsys hemsida',
     linkTwo: '',
