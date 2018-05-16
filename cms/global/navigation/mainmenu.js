@@ -17,6 +17,11 @@
 				new_window: false
 			},
 			{
+				label: 'Jobb',
+				link: '/work',
+				new_window: false
+			},
+			{
 				label: 'Om oss',
 				link: '/about',
 				new_window: false
