@@ -7,7 +7,61 @@
   <main>
     <div class="container">
       <div class="row">
-        
+        {{#with avalibleWork}}
+        {{#each work}}
+        {{#with firstPart}}
+        <section class="col-lg-10 col-10 mx-auto">
+          <div class="jumbotron col-lg-12 col-12 mx-auto m-2 p-1 workJumbotron" style="background-image: url(/assets/img/index/{{image}});"></div>
+            <h1 class="text-center mt-2">{{title}}</h1>
+            <h3>{{workTitle}}</h3>
+            {{#each items}}
+              {{#each texts}}
+                <p>{{text}}</p>
+              {{/each}}
+            {{/each}}
+            {{#each list}}
+            <h3>{{heading}}</h3>
+            <ul class="workList">
+            {{#each texts}}
+              <li>{{text}}</li>
+              {{/each}}
+            </ul>
+            {{/each}}
+        </section>
+        {{/with}}
+
+        {{#with secondPart}}
+        <section class="col-lg-10 col-10 mx-auto">
+        <h3>{{heading}}</h3>
+        {{#each items}}
+          {{#each texts}}
+            <p>{{text}}</p>
+          {{/each}}
+        {{/each}}
+        {{/with}}
+        </section>
+
+        {{#with thirdPart}}
+        <section class="col-lg-10 col-10 mx-auto">
+          <h4>{{headingOne}}</h4>
+          <p>{{textOne}}</p>
+          <h4>{{headingTwo}}</h4>
+          <p>{{textTwo}}</p>
+        </section>
+        {{/with}}
+
+        {{#with fourthPart}}
+        <section class="col-lg-10 col-10 mx-auto">
+          <h4>{{companyOne}}</h4>
+          <p>{{companyOneInfo}}</p>
+          <h4>{{companyTwo}}</h4>
+          <p>{{companyTwoInfo}}</p>
+          <h4>{{contact}}</h4>
+          <p>{{contactPerson}}</p>
+        </section>
+        {{/with}}
+        {{/each}}
+        {{/with}}
       </div>
     </div>
 
