@@ -1,7 +1,10 @@
 ({
   avalibleWork: {
     work: [{
-      jobbs: [{
+      jobbs: [
+        //här ifrån kan man skapa ett nytt jobb genom att kopiera jobbs objekter med samma struktur, behöver man inte allt
+        //så lämna fält tomma så skapas inget
+        {
           firstPart: {
             title: 'Jobb',
             workTitle: 'Exjobb: Lightweight Security Testing of Software Products',

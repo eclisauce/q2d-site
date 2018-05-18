@@ -1,4 +1,5 @@
 ({
+	//Varje objekt är en egen "del" av sidan vill man ha något mer får man ändra i html-strukturen
 	topImage: {
 	  image: 'beach.jpg',
 	  titleOne: 'Licensfria webbportaler och mobila appar',

@@ -16,6 +16,7 @@
 				link: '/workshop',
 				new_window: false
 			},
+			//Finns där inga jobb just nu så stäng av denna routen genom att kommentera bort det så försvinner den från navbaren.
 			{
 				label: 'Jobb',
 				link: '/work',

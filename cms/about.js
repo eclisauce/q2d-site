@@ -3,6 +3,7 @@
     header: 'Om företaget',
     clientsHeader: 'Exempel på kunder:',
     clients: 'Boxon Pak, Alimak Hek, Nelson Garden, Skånska Energi, Bergendahls Food, Tetra Pak, Kongsberg Automotive, Ericsson, Sony Ericsson, Volvo, Lejerbo, Arla och Orkla är några av våra kunder',
+    //Loop här för att kunna skapa flera stycken med text ligger i en p-tagg vill man ha något annat får man ändra i html-strukturen
     items: [{
       heading: '',
       texts: [{
