@@ -4,7 +4,7 @@
     image: '',
     textOne: 'q2d levererar IoT lösningar baserade på LoRaWAN tekniken.',
     subHeaderOne: '',
-    textTwo: 'LoRa sensorer och gateways kommer ifrån Elsys. Läs mer om produkterna du kan välja bland på',
+    textTwo: 'LoRa sensorer och gateways kommer exempelvis ifrån Elsys. Läs mer om produkterna du kan välja bland på',
     textThree: 'SenseSec är vår programvara som hanterar sensorerna och infrastrukturen',
     subHeaderTwo: 'Prototypverkstad:',
     textFour: 'Vi hjälper er att testa IoT lösningar i din verksamhet. Det går även bra att testa IoT lösningar som inte är baserade på LoRa. SenseSec hanterar flera olika teknologier.',
