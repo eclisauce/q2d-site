@@ -8,7 +8,7 @@
 	},
 
 	Heading:{
-		title: 'q2d Solutions AB - Din IT partner',
+		title: '',
 		textOne: '',
 		textTwo: '',
 		textThree: ''
